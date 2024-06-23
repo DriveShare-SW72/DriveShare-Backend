@@ -30,11 +30,9 @@ public class ReservationServiceImpl implements ReservationServise{
     @Transactional
     @Override
     public ReservationDTO createReservation(ReservationDTO reservationDTO) {
-        //TODO ver como usar el microservicio de user para poner el id del guest y host
-        //TODO ver como usar el microservicio de parking para poner el id del parking
-        //TODO ver como usar el microservicio de vehicle para poner el id del vehicle
-        //TODO ver como usar el microservicio de payment para poner el id del payment
-        //TODO ver como usar el microservicio de review para poner el id del review
+        //check the user exists and if is logged in
+        //check the parking exists
+        
         Reservation reservation = modelMapper.map(reservationDTO, Reservation.class);
         reservation = reservationRepository.save(reservation);
         return modelMapper.map(reservation, ReservationDTO.class);
