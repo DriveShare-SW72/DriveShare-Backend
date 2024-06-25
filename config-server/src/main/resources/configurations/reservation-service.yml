@@ -17,3 +17,7 @@ springdoc:
   swagger-ui:
     enabled: true
     path: /swagger-ui.html
+
+application:
+  config:
+    user-url: http://localhost:8222/api/v1/
