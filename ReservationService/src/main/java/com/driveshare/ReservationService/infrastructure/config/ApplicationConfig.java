@@ -17,7 +17,7 @@ public class ApplicationConfig implements WebMvcConfigurer{
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-                .allowedOrigins("https://driveshare-reservationservice.onrender.com/", "http://localhost:4200/", "https://frontend-web-application.vercel.app/")
+                .allowedOrigins("https://driveshare-reservationservice.onrender.com/", "http://localhost:4200/", "https://frontend-web-application.vercel.app/", "http://localhost:5173/")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowCredentials(true);
     }
