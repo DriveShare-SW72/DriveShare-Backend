@@ -21,3 +21,11 @@ springdoc:
 application:
   config:
     user-url: https://driveshare-reservationservice.onrender.com/api/v1/
+
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: https://driveshare-backend-1.onrender.com/eureka/

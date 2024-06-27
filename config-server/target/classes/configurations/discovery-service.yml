@@ -4,6 +4,8 @@ eureka:
     client:
         registerWithEureka: false
         fetchRegistry: false
+        serviceUrl:
+            defaultZone: https://driveshare-backend-1.onrender.com:8761/eureka/
 
 server:
     port: 8761

@@ -20,3 +20,10 @@ spring:
                 
 server:
     port: 8222
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: https://driveshare-backend-1.onrender.com/eureka/
