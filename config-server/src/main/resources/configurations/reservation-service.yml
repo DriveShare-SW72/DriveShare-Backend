@@ -20,4 +20,4 @@ springdoc:
 
 application:
   config:
-    user-url: http://localhost:8222/api/v1/
+    user-url: https://driveshare-reservationservice.onrender.com/api/v1/
