@@ -2,9 +2,9 @@ eureka:
     instance:
         hostname: driveshare-backend-1.onrender.com
     client:
-        registerWithEureka: true
-        fetchRegistry: true
+        registerWithEureka: false
+        fetchRegistry: false
         serviceUrl:
-            defaultZone: https://${eureka.instance.hostname}/eureka/
+            defaultZone: https://driveshare-backend-1.onrender.com/eureka/
 server:
     port: 8761
