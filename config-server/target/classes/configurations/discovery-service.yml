@@ -1,6 +1,6 @@
 eureka:
     instance:
-        hostname: https://driveshare-backend-1.onrender.com
+        hostname: driveshare-backend-1.onrender.com
     client:
         registerWithEureka: false
         fetchRegistry: false
