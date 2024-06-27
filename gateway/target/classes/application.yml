@@ -1,0 +1,5 @@
+spring:
+    config:
+        import: optional:configserver:https://driveshare-backend-aeio.onrender.com
+    application: 
+        name: gateway-service
