@@ -1,5 +1,5 @@
 FROM openjdk:17-jdk-alpine
 VOLUME /tmp
-COPY ReservationService/target/ReservationService-0.0.1-SNAPSHOT.jar app.jar
+COPY target/config-server-0.0.1-SNAPSHOT.jar app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
-EXPOSE 8080
+EXPOSE 8888
