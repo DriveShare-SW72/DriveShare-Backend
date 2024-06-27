@@ -1,7 +1,7 @@
 com\driveshare\ReservationService\domain\model\Reservation$ReservationBuilder.class
 com\driveshare\ReservationService\domain\model\Reservation.class
+com\driveshare\ReservationService\infrastructure\config\ApplicationConfig.class
 com\driveshare\ReservationService\application\service\ReservationServise.class
-com\driveshare\ReservationService\infrastructure\config\ModelMapperConfig.class
 com\driveshare\ReservationService\ReservationServiceApplication.class
 com\driveshare\ReservationService\application\dto\ReservationDTO.class
 com\driveshare\ReservationService\common\exception\ResourceNotFoundException.class
